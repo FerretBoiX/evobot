@@ -5,6 +5,8 @@ const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const i18n = require("i18n");
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
 var PREFIX = "!sp";
 var TOKEN = process.env.TOKEN;
